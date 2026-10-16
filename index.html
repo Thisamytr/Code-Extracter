@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Extracter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="wrap">
+        <h1>Code Extractor</h1>
+        <p class="sub">Paste the full message. Get just the code.</p>
+        <textarea id="input" placeholder="Paste text here..."></textarea>
+        <div class="row">
+            <button id="extract">Extract</button>
+            <button class="alt" id="clear">Clear</button>
+        </div>
+        <div class="out" id="out" hidden>
+            <div class="label" id="how"></div>
+            <div class="code" id="code"></div>
+            <button id="copy">Copy code</button>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
